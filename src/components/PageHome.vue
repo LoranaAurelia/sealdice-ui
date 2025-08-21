@@ -79,16 +79,6 @@
       </el-tooltip>
     </div>
 
-      <el-tooltip v-if="networkHealth.timestamp !== 0">
-        <template #content>
-          {{ dayjs.unix(networkHealth.timestamp).format('YYYY-MM-DD HH:mm:ss') }}
-        </template>
-        <el-text class="ml-auto" type="info" size="small"
-          >检测于 {{ dayjs.unix(networkHealth.timestamp).from(now) }}</el-text
-        >
-      </el-tooltip>
-    </div>
-
     <div v-if="networkHealth.timestamp !== 0" class="mx-2 flex items-center gap-4">
       <el-text size="small"
         >官网
