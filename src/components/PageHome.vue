@@ -64,7 +64,7 @@
       </template>
     
       <template v-else>
-        <el-text type="warning" class="mr-4">差 ☹️</el-text>
+        <el-text type="warning" class="mr-4">差 🔴</el-text>
         <el-text type="warning" size="small"
           >你的网络可能无法访问 SealDice 或 内置客户端 所需的服务，这意味着你可能无法正常使用内置客户端连接 QQ 平台，可能会出现消息无法正常发送的现象。如果遇到问题，请查看日志分析。</el-text>
       </template>
